@@ -29,8 +29,8 @@ const reformattedArray = kvArray.map(({ key, value}) => ({ [key]: value }));
 //  {key: 2, value: 20},
 //  {key: 3, value: 30}]
 
-const numbers = [1, 4, 9];
-const doubles = numbers.map((num) => num * 2);
+const numbers2 = [1, 4, 9];
+const doubles = numbers2.map((num) => num * 2);
 
 // doubles is now   [2, 8, 18]
 // numbers is still [1, 4, 9]
