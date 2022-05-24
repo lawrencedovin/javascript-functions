@@ -7,4 +7,4 @@ const firstElement = array1.shift();
 console.log(array1);
 // expected output: Array [2, 3]
 console.log(firstElement);
-// expected output: 1s
+// expected output: 1

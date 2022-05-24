@@ -26,6 +26,7 @@ const deleteAnimalByName = (name) => {
     let foundName = animals.filter((animal) => animal === name)[0];
     animals = animals.filter((animal) => animal !== name);
     foundName ? console.log(`${name} successfully deleted!`) : console.log(`${name} does not exist.`);
+    console.log(`Found Name: ${foundName}`);
     return animals;
 }
 
